@@ -1,0 +1,73 @@
+// JavaScript Document
+$('#sp-dog').owlCarousel({
+    loop:true,
+	autoplay:true,
+    margin:10,
+    nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#sp-cat').owlCarousel({
+    loop:true,
+	autoplay:true,
+    margin:10,
+	nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#sp-cat-2').owlCarousel({
+    loop:true,
+	autoplay:true,
+    margin:10,
+	nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#sp-dog-1').owlCarousel({
+    loop:true,
+	autoplay:true,
+    margin:10,
+	nav:true,
+	dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
